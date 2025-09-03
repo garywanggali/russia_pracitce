@@ -4,7 +4,7 @@ const questions = [
         answer: "强左型"
     },
     {
-        img :"images/car3_black_long_unclear",
+        img :"images/car3_black_long_unclear.png",
         answer: "黑车模糊长天线"
     },
 ]
