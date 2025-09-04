@@ -15,4 +15,8 @@ const questions = [
         img :"images/car3_black_long_left.png",
         answer: "黑车左型长天线"
     },
+    {
+        img :"car3_balck_long_right_weak.png",
+        answer: "黑车弱右型长天线"
+    },
 ]
