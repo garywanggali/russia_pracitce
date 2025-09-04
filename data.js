@@ -16,11 +16,11 @@ const questions = [
         answer: "黑车左型长天线"
     },
     {
-        img :"car3_black_long_right_weak.png",
+        img :"images/car3_black_long_right_weak.png",
         answer: "黑车弱右型长天线"
     },
     {
-        img :"car3_black_long_right.png",
+        img :"images/car3_black_long_right.png",
         answer: "黑车右型长天线"
     },
 ]
