@@ -8,22 +8,31 @@ body {
 
 .container {
   background: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   text-align: center;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;             /* 手机上自适应屏幕 */
+  max-width: 600px;       /* 电脑上最大 600px */
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .question img {
   max-width: 100%;
+  width: 100%;            /* 根据容器宽度自适应 */
   border-radius: 5px;
 }
 
 input, button {
-  padding: 10px;
-  margin-top: 10px;
+  padding: 12px;
+  margin-top: 15px;
   width: 100%;
+  font-size: 1.1rem;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
@@ -38,7 +47,25 @@ button:hover {
   background-color: #45a049;
 }
 
-#feedback {
-  margin-top: 10px;
+#feedback, #score {
+  margin-top: 15px;
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* 可选：屏幕更小的时候再调小字体 */
+@media (max-width: 400px) {
+  .container {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input, button {
+    padding: 10px;
+    font-size: 1rem;
+  }
 }
